@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.studio.mitra.footref.MainActivity"
+    android:id="@+id/main"
+    android:background="@drawable/background"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/statsMain">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/statsTeamA"
+            android:layout_weight="1">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teamAEditView"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00BCD4"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teamATextView"
+                android:id="@+id/teamATextView"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#F44336"
+                android:textSize="30sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal"
+                android:id="@+id/goalA"
+                android:onClick="setgoalA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/freekicksA"
+               >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/freeA"
+                    android:text="@string/freekick"
+                    android:onClick="freekickA"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/freeA_TV"
+                    android:text="@string/freekickA"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#F44336"
+                    android:gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/cornerA"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cornerButtonA"
+                    android:text="@string/corner"
+                    android:onClick="cornerA"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cornerA_TV"
+                    android:text="@string/cornerA"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#F44336"
+                    android:gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/penaltyA"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/penaltyButtonA"
+                    android:text="@string/penalty"
+                    android:onClick="setPenaltyA"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/penaltyA_TV"
+                    android:text="@string/ini"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#F44336"
+                    android:gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/statsTeamB"
+            android:layout_weight="1">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teamBEditView"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#00BCD4"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teamBTextView"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#F44336"
+                android:textSize="30sp"
+                android:id="@+id/teamBTextView"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal"
+                android:id="@+id/goalB"
+                android:onClick="setgoalB"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/freekicksB"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/freeB"
+                    android:text="@string/freekick"
+                    android:onClick="freekickB"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/freeB_TV"
+                    android:text="@string/freekickA"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#F44336"
+                    android:gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/cornerB"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cornerButtonB"
+                    android:text="@string/corner"
+                    android:onClick="cornerB"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cornerB_TV"
+                    android:text="@string/cornerA"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#F44336"
+                    android:gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/penaltyB"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/penaltyButtonB"
+                    android:text="@string/penalty"
+                    android:onClick="setPenaltyB"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/penaltyB_TV"
+                    android:text="@string/ini"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#F44336"
+                    android:gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetButton"
+        android:text="@string/reset"
+        android:layout_gravity="center_horizontal"
+        android:onClick="reset"/>
+
+</LinearLayout>

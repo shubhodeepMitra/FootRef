@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Foot Ref</string>
+    <string name="teamAEditView">TEAM A</string>
+    <string name="teamATextView">0</string>
+    <string name="goal">GOAL</string>
+    <string name="teamBEditView">TEAM B</string>
+    <string name="teamBTextView">0</string>
+    <string name="reset">RESET</string>
+    <string name="freekick">FREE KICK</string>
+    <string name="freekickA">0</string>
+    <string name="corner">CORNER</string>
+    <string name="cornerA">0</string>
+    <string name="penalty">PENALTY</string>
+    <string name="ini">0</string>
+    <string name="chronoText">00:00:00:000</string>
+
+</resources>
