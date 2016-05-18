@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="C:\Users\Shubhodeep Mitra\AndroidStudioProjects\FootRef\FootRef" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FootRef" vcs="Git" />
   </component>
 </project>

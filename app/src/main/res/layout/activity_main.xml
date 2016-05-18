@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context="com.studio.mitra.footref.MainActivity"
     android:id="@+id/main"
-    android:background="@drawable/background"
+
     >
 
 
