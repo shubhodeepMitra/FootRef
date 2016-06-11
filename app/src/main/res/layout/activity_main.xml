@@ -248,12 +248,29 @@
         </LinearLayout>
 
     </LinearLayout>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/resetButton"
-        android:text="@string/reset"
-        android:layout_gravity="center_horizontal"
-        android:onClick="reset"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resetButton"
+            android:text="@string/reset"
+            android:layout_gravity="center_horizontal"
+            android:onClick="reset"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/undoButton"
+            android:drawableRight="@drawable/ic_replay_black_24dp"
+            android:text="@string/undo"
+            android:layout_gravity="center_horizontal"
+            android:layout_toLeftOf="@id/resetButton"
+            android:onClick="undo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
 
 </LinearLayout>
